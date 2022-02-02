@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Appointment</title>
+    <title>Book an Appointment</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
@@ -10,7 +10,7 @@
   <body>
     <header class='container'>
       <div class='row'>
-        <h1 class=col-sm-6>Appointment</h1>
+        <h1 class=col-sm-6>Book Appointment</h1>
         <nav class='col-sm-6 text-right'>
           <a href='index.html'>Home</a>
           <a href='about.html'>About</a>
@@ -43,27 +43,27 @@
           checkoutElem.setAttribute("min", this.value);
       }
     </script>
-    <form action="reservation.php" method="post">
+    <form action="form-to-email.php" method="post">
       <div class="elem-group">
         <label for="name">Your Name</label>
-        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        <input type="text" id="name" name="name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
       </div>
       <div class="elem-group">
         <label for="email">Your E-mail</label>
-        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+        <input type="email" id="email" name="email" placeholder="john.doe@email.com" required>
       </div>
       <div class="elem-group">
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        <input type="tel" id="phone" name="phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
       </div>
       <hr>
       <div class="elem-group inlined">
         <label for="adult">Devices</label>
-        <input type="number" id="Devices" name="total_devices" placeholder="0" min="1" required>
+        <input type="number" id="devices" name="devices" placeholder="0" min="1" required>
       </div>
       <div class="elem-group inlined">
         <label for="checkin-date">Book Date</label>
-        <input type="date" id="book-date" name="book" required>
+        <input type="date" id="book" name="book" required>
       </div>
       <div class="elem-group">
         <label for="device-selection">Select Type of Device</label>
@@ -78,7 +78,7 @@
       <hr>
       <div class="elem-group">
         <label for="message">Anything Else?</label>
-        <textarea id="message" name="visitor_message" placeholder="Tell us what is wrong with the device." required></textarea>
+        <textarea id="message" name="message" placeholder="Tell us what is wrong with the device." required></textarea>
       </div>
       <button type="submit">Book Appointment</button>
     </form>
