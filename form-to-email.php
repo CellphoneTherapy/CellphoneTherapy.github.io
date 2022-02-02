@@ -6,6 +6,10 @@ if(!isset($_POST['submit']))
 }
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
+$visitor_phone = $_POST['phone'];
+$num_devices = $_POST['devices'];
+$appoint_date = $_POST['book'];
+$device_type = $_POST['device-selection'];
 $message = $_POST['message'];
 
 //Validate first
@@ -24,9 +28,9 @@ if(IsInjected($visitor_email))
 $email_from = 'tom@amazing-designs.com';//<== update the email address
 $email_subject = "New Appointment Submission";
 $email_body = "You have received a new message from the user $name.\n".
-    "Here is the message:\n $message".
+    "$name has $num_devices device/s. \n The device is a $device_type.\n They wish to book and appointment for $appoint_date.\n To contact $name about their appointment please call $visitor_phone. Here is the message they sent:\n $message".
     
-$to = "redheadusmc@gmail.com";//<== update the email address
+$to = "celltherapy1983@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
