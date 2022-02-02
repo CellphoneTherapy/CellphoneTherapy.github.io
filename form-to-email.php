@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <?php
 if(!isset($_POST['submit']))
 {
@@ -65,4 +63,3 @@ function IsInjected($str)
 }
    
 ?> 
-</html>
