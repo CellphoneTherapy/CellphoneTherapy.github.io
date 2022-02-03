@@ -87,10 +87,11 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1567924675637-283a6742993e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fphotos%2Fmobile-smartphone-gsm-phone-3364090%2F&psig=AOvVaw09bNLtQhsV7IwcLOyY2cpp&ust=1644018851090000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCrs-Ld5PUCFQAAAAAdAAAAABAD');
   background-size: cover;
   color: #ffffff;
-  height: 400px;
+  height: 600px;
+  width: 800px;
 }
 
 .jumbotron h2 {
