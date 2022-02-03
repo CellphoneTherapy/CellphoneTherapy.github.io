@@ -65,7 +65,7 @@
         <input type="number" id="devices" name="devices" placeholder="0" min="1" required>
       </div>
       <div class="elem-group inlined">
-        <label for="checkin-date">Book Date</label>
+        <label for="checkin-date">Request Date</label>
         <input type="date" id="book" name="book" required>
       </div>
       <div class="elem-group">
@@ -76,9 +76,10 @@
           <option value="tablet">Tablet</option>
           <option value="pc_laptop">PC/Laptop</option>
           <option value='other'>Other..</option>
-       <div class="elem-group">
+       <div class="elem-group inlined">
         <label for="imei">Device IMEI #</label>
-        <input type="imei" id="imei" name="imei" placeholder="Enter IMEI # e.g. 123456789015487" required>
+        <input type="imei" id="imei" name="imei" placeholder="Enter IMEI # e.g. 123456789015487">
+       </div>
       </div>
         </select>
       </div>
