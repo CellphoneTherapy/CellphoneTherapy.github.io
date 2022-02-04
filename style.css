@@ -1,8 +1,8 @@
 body {
   font-family: Roboto, sans-serif;
-  background-image: url('https://github.com/CellphoneTherapy/CellphoneTherapy.github.io/blob/main/cellphone_background.jpg?raw=true');
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
 }
-https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png
+https://github.com/CellphoneTherapy/CellphoneTherapy.github.io/blob/main/cellphone_background.jpg?raw=true
 
 header {
   padding: 20px 0;
@@ -12,9 +12,6 @@ header .row,
 footer .row {
   display: flex;
   align-items: center;
-}
-.container {
-  font-color:white;
 }
 
 div.elem-group {
@@ -75,16 +72,6 @@ button:hover {
 
 h1 {
   font-weight: 700;
-  margin: 0;
-  color: white;
-}
-
-h2 {
-  margin: 0;
-  color: white;
-}
-
-h4 {
   margin: 0;
   color: white;
 }
