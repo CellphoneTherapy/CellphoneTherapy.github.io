@@ -89,14 +89,14 @@ a {
   align-items: center;
   background-image: url('https://cdn.pixabay.com/photo/2018/04/30/21/19/mobile-phone-3364090_960_720.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
-  margin: 0;
+  margin: auto;
   color:rgb(0,162,232);
 }
 
