@@ -13,6 +13,9 @@ footer .row {
   display: flex;
   align-items: center;
 }
+.container {
+  color:white;
+}
 
 div.elem-group {
   margin: 20px 0;
@@ -103,7 +106,6 @@ a {
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: white;
 }
 
 section .row img {
