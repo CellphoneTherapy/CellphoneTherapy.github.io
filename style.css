@@ -14,7 +14,7 @@ footer .row {
   align-items: center;
 }
 .container {
-  color:white;
+  font-color:white;
 }
 
 div.elem-group {
@@ -76,11 +76,17 @@ button:hover {
 h1 {
   font-weight: 700;
   margin: 0;
-  color: white;
+  font-color: white;
 }
+
 h2 {
   margin: 0;
-  color: white;
+  font-color: white;
+}
+
+h4 {
+  margin: 0;
+  font-color: white;
 }
 
 nav {
