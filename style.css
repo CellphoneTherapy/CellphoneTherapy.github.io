@@ -1,8 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
-  background-image: url('https://github.com/CellphoneTherapy/CellphoneTherapy.github.io/blob/main/cellphone_background.jpg?raw=true');
+  background-image: url('https://github.com/CellphoneTherapy/CellphoneTherapy.github.io/blob/main/cellphone_background.png?raw=true');
 }
-https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png
 
 header {
   padding: 20px 0;
