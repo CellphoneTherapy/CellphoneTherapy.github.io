@@ -88,7 +88,7 @@ a {
   display: flex;
   align-items: center;
   background-image: url('https://cdn.pixabay.com/photo/2018/04/30/21/19/mobile-phone-3364090_960_720.jpg');
-  background-size: contain;
+  background-size: center;
 }
 
 .jumbotron h2 {
