@@ -89,6 +89,7 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
+  background-color: black;
   background-image: url('https://cdn.pixabay.com/photo/2018/04/30/21/19/mobile-phone-3364090_960_720.jpg');
   background-position: center;
   background-repeat: no-repeat;
