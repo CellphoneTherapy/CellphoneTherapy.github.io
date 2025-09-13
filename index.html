@@ -1,74 +1,223 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <title>Cell Therapy</title>
-    <style>
-      h1, h2, h3, h4 {color: white;}
-      nav.col-sm-6 {text-align: right:}
-      img {display: block;
-           margin-right: auto;
-          }
-      p {color: red;}
-      .container {color: white;}
-    </style>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Phone Repair - Cell Therapy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <header class='container'>
-      <div class="row row-no-gutters">
-        <h1 class=col-sm-6><img src="https://github.com/CellphoneTherapy/CellphoneTherapy.github.io/blob/main/CellTherapy%20Logo.png?raw=true" width="240px" alt="Celltherapy logo"></h1>
-        <nav class='col-sm-6 text-right'>
-          <a href='about.html'>About</a>
-          <a href='appointment.html'>Schedule Repair</a>
-          <a href=''></a>
-          <a href=''></a>
-        </nav>
-      </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <img src="celltherapyicon2.0-removebg-preview.png" width="75" Alt="Cell Therapy Logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why-us">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="appointment.html">Schedule Repair</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Expert Phone Repair at Your Fingertips</h1>
+            <!--<img src="cellphone_background.png" height="100" alt="Cell Phone">-->
+            <p class="lead">Fast, reliable, and professional repairs for all your electronic repair needs.</p>
+            <a href="#contact" class="btn btn-primary btn-lg mt-4">Get a Free Quote</a>
+        </div>
     </header>
-  <section class='jumbotron'>
-      <div class='container'>
-        <div class='row'>
-          <h2>Welcome to Cell Therapy</h2>         
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card p-4">
+                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                        <h4>Screen Repair</h4>
+                        <p>Cracked screen? We can fix it quickly and affordably with high-quality replacement parts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card p-4">
+                        <i class="fas fa-battery-half fa-3x mb-3"></i>
+                        <h4>Battery Replacement</h4>
+                        <p>Is your battery draining too fast? Get a fresh battery and extend your phone's life.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card p-4">
+                        <i class="fas fa-water fa-3x mb-3"></i>
+                        <h4>Water Damage</h4>
+                        <p>Accidental spill? Bring your water-damaged device to us for a professional assessment.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card p-4">
+                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                        <h4>Charge Port Replacement</h4>
+                        <p>Not Charging? We can get you back to 100% fast and affordably.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card p-4">
+                        <i class="fas fa-fan fa-3x mb-3"></i>
+                        <h4>Drone Repair</h4>
+                        <p>Not Flying? We can get you back in the air with high-quality replacement parts.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-  <div class='container'>
-    <h1> This is your one stop shop for all your electronic repair needs.</h1>
-    <hr>
-  <h2> We can repair: </h2>
-  <h3>
-    <ul>
-      <li> Cellphone / Tablet / Laptop Screens </li>
-      <li> iPhone Back glass </li>
-      <li> Cellphone / Tablet / Laptop Charging Ports </li>
-      <li> Cellphone / Tablet / Laptop Batteries </li>
-      <li> Basic Drone Repair </li>
-      <li> And much more... </li>
-    </ul>
-  </h3>
-    <iframe src="https://appsgeyser.com/social_widget/social_widget.php?width=295&height=150&apkName=Cell Therapy_15183230&simpleVersion=yes" width="320" height="180" vspace="0" hspace="0" frameborder="no" scrolling="no" seamless="" allowtransparency="true"></iframe>
-    <img src="https://github.com/CellphoneTherapy/CellphoneTherapy.github.io/blob/main/celltherapyicon2.0-removebg-preview.png?raw=true" height="45" alt="celltherapy logo">
-    <h2>We have an App!!</h2>
-    <hr>
-<h4> Products</h4>
-<p> We can also provide cases for certain devices to ensure that accidents can be prevented.</p>
-  <p> For Pricing and Questions simply contact us at:</p>
-  <ul>
-    <li> Phone : (706)594-6181 </li>
-    <li> Email : Celltherapy1983@gmail.com </li>
-    <li> or <a href='appointment.html'>Schedule a Repair</a></li>
-   </ul>
-</div>
-  <hr>
-<footer class='container'>
-      <div class='row'>
-        <p class='col-sm-4'>&copy; 2022 CellTherapy</p>
-        <div class='col-sm-2'><a href='https://www.linkedin.com/'>LinkedIn</a>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4">
+                    <img src="Cell Therapy Logo.png" width="300" Alt="Cell Therapy Logo">                       
+                </div>
+                    <div class="col-md-6 mb-4">
+                        <h2 class="mb-4">Why Choose Cell Therapy?</h2> 
+                        <ul class="list-unstyled">
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Experienced and certified technicians</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Use of high-quality, reliable parts</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Fast turnaround time</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Competitive and transparent pricing</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Comprehensive repair warranty</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Customers Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-box text-center p-4">
+                                <p>"Fast and friendly service! My phone screen was replaced in no time, and it looks perfect. I'll be calling Walt when it happens again"</p>
+                                <footer class="blockquote-footer mt-2">Tim M.</footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-box text-center p-4">
+                                <p>"My daughter had shattered her iPhone screen. Walt was quick and had the phone back to me in no time."</p>
+                                <footer class="blockquote-footer mt-2">Ariel M.</footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="testimonial-box text-center p-4">
+                                <p>"Professional and affordable. My water-damaged phone was repaired and works like new. Highly recommend!"</p>
+                                <footer class="blockquote-footer mt-2">Janet S.</footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h4>Contact Information</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Lagrange, GA</li>
+                        <li><i class="fas fa-phone-alt me-2"></i> (706) 594-6181</li>
+                        <li><i class="fas fa-envelope me-2"></i> Celltherapy1983@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4>Request a Quote</h4>
+                    <form action="https://formsubmit.co/celltherapy1983@gmail.com" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                            <input type="hidden" name="_subject" value="New Quote Request!">
+                            <input type="hidden" name="_next" value="https://cellphonetherapy.github.io/index.html">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Include IMEI # / Make / Model of device and what repairs are being requested." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Cell Therapy. All Rights Reserved. 2025</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
