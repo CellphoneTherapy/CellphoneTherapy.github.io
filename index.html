@@ -1,223 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Phone Repair - Cell Therapy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* Custom CSS for Professional Look */
+:root {
+    --primary-color: #007bff; /* Example of a calm blue */
+    --secondary-color: #6c757d;
+    --dark-bg: #212529;
+    --light-bg: #f8f9fa;
+}
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"></a>
-            <img src="celltherapyicon2.0-removebg-preview.png" width="75" Alt="Cell Therapy Logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#why-us">Why Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="appointment.html">Schedule Repair</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--dark-bg);
+}
 
-    <!-- Hero Section -->
-    <header class="hero-section text-white text-center">
-        <div class="container">
-            <h1 class="display-4 fw-bold">Expert Phone Repair at Your Fingertips</h1>
-            <!--<img src="cellphone_background.png" height="100" alt="Cell Phone">-->
-            <p class="lead">Fast, reliable, and professional repairs for all your electronic repair needs.</p>
-            <a href="#contact" class="btn btn-primary btn-lg mt-4">Get a Free Quote</a>
-        </div>
-    </header>
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://raw.githubusercontent.com/redmarine1984/TestWebsite.github.io/refs/heads/main/cellphone_background.png?text=Phone+Repair+Background') no-repeat center center/cover;
+    padding: 10rem 0;
+}
 
-    <!-- Services Section -->
-    <section id="services" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Our Services</h2>
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
-                    <div class="service-card p-4">
-                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
-                        <h4>Screen Repair</h4>
-                        <p>Cracked screen? We can fix it quickly and affordably with high-quality replacement parts.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-card p-4">
-                        <i class="fas fa-battery-half fa-3x mb-3"></i>
-                        <h4>Battery Replacement</h4>
-                        <p>Is your battery draining too fast? Get a fresh battery and extend your phone's life.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-card p-4">
-                        <i class="fas fa-water fa-3x mb-3"></i>
-                        <h4>Water Damage</h4>
-                        <p>Accidental spill? Bring your water-damaged device to us for a professional assessment.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-card p-4">
-                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
-                        <h4>Charge Port Replacement</h4>
-                        <p>Not Charging? We can get you back to 100% fast and affordably.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="service-card p-4">
-                        <i class="fas fa-fan fa-3x mb-3"></i>
-                        <h4>Drone Repair</h4>
-                        <p>Not Flying? We can get you back in the air with high-quality replacement parts.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+.hero-section h1 {
+    font-size: 3.5rem;
+}
 
-    <!-- Why Choose Us Section -->
-    <section id="why-us" class="bg-light py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 mb-4">
-                    <img src="Cell Therapy Logo.png" width="300" Alt="Cell Therapy Logo">                       
-                </div>
-                    <div class="col-md-6 mb-4">
-                        <h2 class="mb-4">Why Choose Cell Therapy?</h2> 
-                        <ul class="list-unstyled">
-                            <li class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <span>Experienced and certified technicians</span>
-                            </li>
-                            <li class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <span>Use of high-quality, reliable parts</span>
-                            </li>
-                            <li class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <span>Fast turnaround time</span>
-                            </li>
-                            <li class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <span>Competitive and transparent pricing</span>
-                            </li>
-                            <li class="d-flex align-items-center mb-3">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <span>Comprehensive repair warranty</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+.service-card {
+    background: var(--light-bg);
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+}
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">What Our Customers Say</h2>
-            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <div class="testimonial-box text-center p-4">
-                                <p>"Fast and friendly service! My phone screen was replaced in no time, and it looks perfect. I'll be calling Walt when it happens again"</p>
-                                <footer class="blockquote-footer mt-2">Tim M.</footer>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <div class="testimonial-box text-center p-4">
-                                <p>"My daughter had shattered her iPhone screen. Walt was quick and had the phone back to me in no time."</p>
-                                <footer class="blockquote-footer mt-2">Ariel M.</footer>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <div class="testimonial-box text-center p-4">
-                                <p>"Professional and affordable. My water-damaged phone was repaired and works like new. Highly recommend!"</p>
-                                <footer class="blockquote-footer mt-2">Janet S.</footer>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </section>
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-dark text-white py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Get in Touch</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <h4>Contact Information</h4>
-                    <ul class="list-unstyled">
-                        <li><i class="fas fa-map-marker-alt me-2"></i> Lagrange, GA</li>
-                        <li><i class="fas fa-phone-alt me-2"></i> (706) 594-6181</li>
-                        <li><i class="fas fa-envelope me-2"></i> Celltherapy1983@gmail.com</li>
-                    </ul>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <h4>Request a Quote</h4>
-                    <form action="https://formsubmit.co/celltherapy1983@gmail.com" method="POST">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                            <input type="hidden" name="_subject" value="New Quote Request!">
-                            <input type="hidden" name="_next" value="https://cellphonetherapy.github.io/index.html">
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" rows="4" placeholder="Include IMEI # / Make / Model of device and what repairs are being requested." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+.service-card i {
+    color: var(--primary-color);
+}
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; <span id="year"></span> Cell Therapy. All Rights Reserved. 2025</p>
-        </div>
-    </footer>
+.testimonial-box {
+    max-width: 600px;
+    background: #fff;
+    border: 1px solid #e9ecef;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+div.elem-group {
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    margin-bottom: 5px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+div.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  background-image: url('https://raw.githubusercontent.com/redmarine1984/TestWebsite.github.io/refs/heads/main/cellphone_background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  height: 250px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--dark-bg);
+}
