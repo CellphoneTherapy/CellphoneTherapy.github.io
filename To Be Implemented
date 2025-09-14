@@ -1,0 +1,106 @@
+Venmo Payment
+<a href="https://venmo.com/{YourUsername}">Pay with Venmo</a>
+
+
+Inventory (1)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Inventory</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Inventory Management</h1>
+    </header>
+
+    <main>
+        <section id="inventory-list">
+            <h2>Current Inventory</h2>
+            <!-- Inventory items will be listed here -->
+        </section>
+
+        <section id="add-item-form">
+            <h2>Add New Item</h2>
+            <!-- Form to add new items -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Inventory System</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file for interactivity -->
+</body>
+</html>
+
+
+
+Inventory(2) Using Table
+
+<section id="inventory-list">
+    <h2>Current Inventory</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>15</td>
+                <td>$1200</td>
+                <td>High-performance laptop</td>
+            </tr>
+            <tr>
+                <td>Mouse</td>
+                <td>50</td>
+                <td>$25</td>
+                <td>Wireless optical mouse</td>
+            </tr>
+            <!-- More items can be added here -->
+        </tbody>
+    </table>
+</section>
+
+
+Inventory(3) Using Unordered List
+
+<section id="inventory-list">
+    <h2>Current Inventory</h2>
+    <ul>
+        <li><strong>Laptop:</strong> Quantity: 15, Price: $1200, Description: High-performance laptop</li>
+        <li><strong>Mouse:</strong> Quantity: 50, Price: $25, Description: Wireless optical mouse</li>
+        <!-- More items can be added here -->
+    </ul>
+</section>
+
+
+
+Inventory(4) Adding Form for Adding New Items
+
+<section id="add-item-form">
+    <h2>Add New Item</h2>
+    <form>
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" required><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Add Item</button>
+    </form>
+</section>
